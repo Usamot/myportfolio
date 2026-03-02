@@ -8,6 +8,10 @@ import About from "../About/About";
 import Education from "../Education/Education";
 
 const Header = () => {
+
+
+
+  
   return (
     <div className="landing">
       <div className="aside1">

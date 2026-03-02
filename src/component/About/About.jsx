@@ -8,6 +8,8 @@ import {FaMicrosoft} from 'react-icons/fa'
 import{AiOutlineNodeCollapse,AiFillGithub} from 'react-icons/ai'
 import {BsGit} from 'react-icons/bs'
 import {BsCloudArrowDownFill} from 'react-icons/bs'
+import { FaPython } from "react-icons/fa";
+import { DiDjango } from "react-icons/di";
 const About = () => {
   return (
     <div className='about'>
@@ -19,11 +21,7 @@ const About = () => {
     <h1><b>WHO AM I ?</b></h1>
         
     </div>
-       <small> Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-         Rem corporis laborum et blanditiis laudantium odio obcaecati molestias magni.
-          Tempore dolorem deserunt
-          incidunt perferendis exercitationem, 
-         aliquam commodi saepe illo consequatur voluptas.
+       <small> 
          </small>
 
         
@@ -31,8 +29,8 @@ const About = () => {
          <div className="about-ul">
            
            <ul className="--card ">
-             <li className="" > <GrHtml5 size={60}/></li>
-             <li className=""> HTML</li>
+             <li className="l2" > <GrHtml5 size={60}/></li>
+             <li className="l1"> HTML</li>
              <hr />
            </ul>
            <ul className="--card">
@@ -41,8 +39,8 @@ const About = () => {
              <hr />
            </ul>
            <ul className="--card">
-             <li ><IoLogoJavascript size={60}/></li>
-             <li >JAVASCRIPT</li>
+             <li className='l1' ><IoLogoJavascript size={60}/></li>
+             <li className='l2' >JAVASCRIPT</li>
              <hr />
            </ul>
            <ul className="--card">
@@ -65,9 +63,23 @@ const About = () => {
              <li className="l5">GIT</li>
              <li><hr /></li>
              </ul>
+
+             <ul className="--card">
+             <li className="l1" ><FaPython size={60}/></li>
+             <li className="l1">PYTHON</li>
+             <li><hr /></li>
+             </ul>
+
+             <ul className="--card">
+             <li className="l5" ><DiDjango  size={60}/></li>
+             <li className="l1">DJANGO</li>
+             <li><hr /></li>
+             </ul>
+        
+             
          </div>
          <div className='about-footer'>
-           <h4> <em> Am happy to to tell you that 10 projects are available !!!</em></h4>
+           <h4> <em> Am happy to to tell you that many projects are available !!!</em></h4>
          
            < BsCloudArrowDownFill size={50}/>
          </div>

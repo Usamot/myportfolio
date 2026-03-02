@@ -70,9 +70,10 @@ const Education = () => {
             open?
 
 <div className="edu-f">
-<p> Netflix is a streaming khvkkjghjhbg
-    hjbghjhvhjbgjhvg
-    jkhjkhj vvvvgb.</p>
+<p
+h4> Bachelor of Science in Computer Science <br />
+Kwara State University, Malete, Kwara State, Nigeria <br />
+Second Class Honours (Upper Division)</p>
 </div>
 
             : ''
@@ -90,9 +91,9 @@ const Education = () => {
 open1?
 
 <div className="edu-f">
-<p> Netflix is a streaming khvkkjghjhbg
-hjbghjhvhjbgjhvg
-jkhjkhj vvvvgb.</p>
+<p> National Diploma in Computer Science <br />
+Federal Polytechnic, Ile-Oluji, Ondo State, Nigeria <br />
+Distinction</p>
 </div>
 
 : ''
@@ -109,9 +110,7 @@ jkhjkhj vvvvgb.</p>
 open2?
 
 <div className="edu-f">
-<p> Netflix is a streaming khvkkjghjhbg
-hjbghjhvhjbgjhvg
-jkhjkhj vvvvgb.</p>
+<p> A level.</p>
 </div>
 
 : ''
@@ -128,9 +127,7 @@ jkhjkhj vvvvgb.</p>
 open3?
 
 <div className="edu-f">
-<p> Netflix is a streaming khvkkjghjhbg
-hjbghjhvhjbgjhvg
-jkhjkhj vvvvgb.</p>
+<p> 0 level.</p>
 </div>
 
 : ''

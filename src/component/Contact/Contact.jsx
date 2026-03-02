@@ -5,6 +5,7 @@ import {MdOutlineMarkEmailUnread} from "react-icons/md"
 import {BsTelephone} from "react-icons/bs"
 import {GoLocation} from "react-icons/go"
 import emailjs from 'emailjs-com'
+import { toast } from 'react-toastify';
 
 const Contact = () => {
 
@@ -12,16 +13,17 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
     emailjs.sendForm('service_7cz98ql', 'template_cg6n7ja', form.current, 'C4xaTcK_Q6x9fRfap')
       .then((result) => {
           console.log(result.text);
+          toast.success("email sent successfully")
       }, (error) => {
           console.log(error.text);
+          toast.error('not sent')
       });
-  };
 
- 
+      
+  };
 
   return (
     <div className="contact">

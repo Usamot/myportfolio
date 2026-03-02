@@ -3,6 +3,10 @@ import './header-component.css'
 import con2 from '../assets/con2.png'
 
 const Header_component = () => {
+
+
+
+
   return (
     <div className="header-component" >
         
