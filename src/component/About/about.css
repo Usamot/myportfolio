@@ -29,7 +29,7 @@
     font-weight: bold;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-.about-ul :hover{
+.about-ul:hover{
     background-color: rgba(255, 218, 5, 0.65); 
     
 }
