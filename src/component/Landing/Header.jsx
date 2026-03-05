@@ -3,9 +3,9 @@ import "./header.css";
 import myp from "../assets/myp.png";
 
 import { Link, NavLink } from "react-router-dom";
-import About from "../About/About";
+// import About from "../About/About";
 
-import Education from "../Education/Education";
+// import Education from "../Education/Education";
 
 const Header = () => {
 
@@ -33,7 +33,7 @@ const Header = () => {
             </Link>
           </li>
           <li>
-            <a href="">Skill</a>
+            <a href="" alt='' >Skill</a>
           </li>
           <li>
             <Link to="/education">Education</Link>
