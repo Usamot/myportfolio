@@ -2,7 +2,7 @@ import React from 'react'
 import './header-component.css'
 import con2 from '../assets/con2.png'
 
-const Header_component = () => {
+const HeaderComponent = () => {
 
 
 
@@ -35,4 +35,4 @@ const Header_component = () => {
   )
 }
 
-export default Header_component
+export default HeaderComponent

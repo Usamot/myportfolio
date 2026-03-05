@@ -5,7 +5,7 @@ import {BsFiletypeCss} from "react-icons/bs"
 import {IoLogoJavascript} from 'react-icons/io'
 import {FaReact} from 'react-icons/fa'
 import {FaMicrosoft} from 'react-icons/fa'
-import{AiOutlineNodeCollapse,AiFillGithub} from 'react-icons/ai'
+import{AiOutlineNodeCollapse} from 'react-icons/ai'
 import {BsGit} from 'react-icons/bs'
 import {BsCloudArrowDownFill} from 'react-icons/bs'
 import { FaPython } from "react-icons/fa";

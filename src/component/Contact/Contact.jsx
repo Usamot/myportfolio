@@ -38,11 +38,11 @@ const Contact = () => {
          </div>
          <div className="contact-content --card">
            <p className='contact-item --card'   ><GoLocation size='50' /></p>
-           <a>OYO-STATE</a>
+           <h4>OYO-STATE</h4>
          </div>
          <div className="contact-content --card" >
-           <a className='contact-item --card'><BsTelephone size='50' /></a>
-           <a>+2347067144826</a>
+           <h4 className='contact-item --card'><BsTelephone size='50' /></h4>
+           <h3>+2347067144826</h3>
          </div>
        </div>
 

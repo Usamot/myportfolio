@@ -5,7 +5,7 @@ import Header from "./component/Landing/Header";
 import About from "./component/About/About";
 import Contact from "./component/Contact/Contact";
 import Education from "./component/Education/Education";
-import Header_component from "./component/Landing/Header_component";
+import HeaderComponent from "./component/Landing/HeaderComponent";
 // import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 function App() {
@@ -13,11 +13,11 @@ function App() {
     <div className="App">
 
       <BrowserRouter>
-    {/* <ToastContainer/> */}
+    {/* npm run build */}
       <Header/>
       
       <Routes>
-      <Route path="/" element={<Header_component/>} />
+      <Route path="/" element={<HeaderComponent/>} />
       
         <Route path="/about" element={<About/>} />
         <Route path="/contact" element={<Contact/>} />
