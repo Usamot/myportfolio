@@ -9,11 +9,33 @@
  
 }
 
+/* Default styles (Laptop/Desktop) */
+/* .container {
+  width: 80%;
+  margin: auto;
+} */
+
+/* Tablet screens */
+@media (max-width: 1024px) {
+  .landing {
+      width: 90%;
+  }
+}
+
+/* Mobile phones */
+@media (max-width: 768px) {
+  .landing {
+      width: 100%;
+      padding: 10px;
+  }
+}
+
 
 
 .landing {
   width: 100%;
   position: relative;
+  height: auto;
 }
 
 .aside1 {
