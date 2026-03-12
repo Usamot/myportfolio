@@ -8,6 +8,7 @@ import Education from "./component/Education/Education";
 import HeaderComponent from "./component/Landing/HeaderComponent";
 // import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import './App.css';
 function App() {
   return (
     <div className="App">

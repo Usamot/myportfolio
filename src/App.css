@@ -1,0 +1,162 @@
+/* Container holding sidebar + banner */
+.app-container {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+  }
+  
+  /* Sidebar (Header) */
+  .landing {
+    width: 22%;
+    min-width: 200px; /* Prevent collapsing too small */
+    background-color: #1a1a1a;
+    color: white;
+    position: fixed;
+    height: 100vh;
+    padding: 2rem 1rem;
+    box-sizing: border-box;
+  }
+  
+  .small_img img {
+    width: 80%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  
+  .disc h5 {
+    color: white;
+    margin-bottom: 0.2rem;
+  }
+  .disc p {
+    color: rgb(240, 74, 74);
+    margin: 0;
+  }
+  
+  .aside1_ul {
+    list-style: none;
+    margin-top: 2rem;
+    padding: 0;
+  }
+  
+  .aside1_ul li {
+    padding: 12px;
+    position: relative;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+    transition: all 0.3s ease;
+  }
+  
+  .aside1_ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: block;
+  }
+  
+  .aside1_ul li:hover {
+    background-color: rgba(233, 51, 51, 0.5);
+  }
+  
+  .aside1_ul li::before {
+    content: "";
+    width: 0;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: red;
+    transition: width 0.3s ease;
+  }
+  
+  .aside1_ul li:hover::before {
+    width: 5px;
+  }
+  
+  /* HeaderComponent (Main content area) */
+  .header-component {
+    margin-left: 20%; /* Push it beside sidebar */
+    width: 70%;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .header-component img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .header-component-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .header-component-top .top-1 {
+    color: #fff;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+  
+  .header-component-top h3 {
+    color: rgb(240, 74, 74);
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .header-component-top button {
+    background-color: rgb(240, 74, 74);
+    color: white;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Responsive - Tablets */
+  @media (max-width: 1024px) {
+    .landing {
+      width: 25%;
+    }
+    .header-component {
+      margin-left: 25%;
+      width: 75%;
+    }
+    .header-component-top .top-1 {
+      font-size: 3rem;
+    }
+  }
+  
+  /* Responsive - Mobile */
+  @media (max-width: 768px) {
+    .app-container {
+      flex-direction: column;
+    }
+    .landing {
+      width: 100%;
+      height: auto;
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      padding: 1rem;
+    }
+    .header-component {
+      width: 100%;
+      margin-left: 0;
+      height: 60vh;
+    }
+    .header-component-top .top-1 {
+      font-size: 2rem;
+    }
+  }
