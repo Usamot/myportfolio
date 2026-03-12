@@ -7,7 +7,7 @@
   
   /* Sidebar (Header) */
   .landing {
-    width: 22%;
+    width: 20%;
     min-width: 200px; /* Prevent collapsing too small */
     background-color: #1a1a1a;
     color: white;
@@ -76,7 +76,7 @@
   /* HeaderComponent (Main content area) */
   .header-component {
     margin-left: 20%; /* Push it beside sidebar */
-    width: 70%;
+    width: 80%;
     height: 100vh;
     position: relative;
   }

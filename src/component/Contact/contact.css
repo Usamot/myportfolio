@@ -1,9 +1,10 @@
 /* CONTACT CONTAINER */
 .contact {
-    width: 60%;              /* desktop width */
+    width: 80%;              /* desktop width */
     margin: 0 auto;          /* center horizontally */
     padding: 2rem;
     min-height: 100vh;
+    margin-left: 20%;
   }
   
   /* HEADER */
