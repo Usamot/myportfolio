@@ -11,7 +11,7 @@
   width: 100%;
   min-height: 100vh;
   background: #000;
-  display: flex;
+  /* display: flex; */
   align-items: center;
   justify-content: center;
   overflow: hidden;
@@ -83,6 +83,7 @@
 .card {
   background: rgba(0,0,0,0.7);
   padding: 20px 30px;
+  margin-top: 50%;
   border-radius: 10px;
   color: #fff;
   position: relative;

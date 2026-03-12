@@ -18,7 +18,7 @@ const About = () => {
    
       
     <div>
-    <h1><b>WHO AM I ?</b></h1>
+    <h1><b>I AM A FULLSTACK DEVELOPER</b></h1>
         
     </div>
        <small> 
@@ -79,7 +79,7 @@ const About = () => {
              
          </div>
          <div className='about-footer'>
-           <h4> <em> Am happy to to tell you that many projects are available !!!</em></h4>
+           <h4> <em> Am happy  to tell you that many projects are available !!!</em></h4>
          
            < BsCloudArrowDownFill size={50}/>
          </div>

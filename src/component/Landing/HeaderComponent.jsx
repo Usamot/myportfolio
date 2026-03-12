@@ -8,7 +8,7 @@ const HeaderComponent = () => {
       <div className="hero-container">
         {/* Left: Image */}
         <div className="hero-image">
-          <img src={con2} alt="Hero" />
+          {/* <img src={con2} alt="Hero" /> */}
         </div>
 
         {/* Right: Text + Card + Button */}
