@@ -1,6 +1,6 @@
 import React from 'react';
 import './header-component.css';
-import con2 from '../assets/con2.png';
+// import con2 from '../assets/con2.png';
 
 const HeaderComponent = () => {
   return (
